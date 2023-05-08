@@ -25,8 +25,6 @@ export default function Home() {
             </h2>
         </div>
         <AuthForm/>
-
-        
       </div>
     )
   }
