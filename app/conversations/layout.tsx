@@ -11,7 +11,7 @@ export default async function conversationsLayout({
     return (
         // @ts-expect-error Server Component
         <Sidebar>
-            <div className="h-ful">
+            <div className="h-full">
                 <ConversationList initialItems = {conversations}/>
                 {children}
             </div>
